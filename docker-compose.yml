@@ -1,5 +1,6 @@
 web:
   image: grzegorzwodo/seqr-ecommerce-base:PHP5_6
+  container_name: woocommerce_seqr_container
   ports:
     - "8080:80"
     - "3306:3306"

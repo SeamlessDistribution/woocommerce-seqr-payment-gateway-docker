@@ -8,5 +8,5 @@ WOOCOMMERCE_VERSION=2.4.13
 export WC_SEQR_PLUGIN_DIR='../woocommerce-seqr-payment-gateway/'
 
 docker-compose up -d
-export WEB_CONTAINER_ID="`docker ps | grep seqr-ecommerce-base | awk '{print $1}'`"
+export WEB_CONTAINER_ID="`docker ps | grep woocommerce_seqr_container | awk '{print $1}'`"
 docker exec $WEB_CONTAINER_ID /var/www/html/install-wc.sh $WORDPRESS_VERSION $WOOCOMMERCE_VERSION
