@@ -9,4 +9,4 @@ web:
 web-data:
   image: mosyda/ecommerce-woocommerce-data
   volumes:
-    - $WC_SEQR_PLUGIN_DIR:/var/www/html/wp-content/plugins/seqr
+    - $WC_SEQR_PLUGIN_DIR:/var/www/html/wp-content/plugins/woocommerce-seqr
