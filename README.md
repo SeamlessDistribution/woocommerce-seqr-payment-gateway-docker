@@ -1,7 +1,7 @@
 # woocommerce-seqr-payment-gateway-docker
 Docker script for creating woocommerce SEQR plugin development environment.
 
-After installation set properly variables in script start.sh:
+Set properly variables in script start.sh according to your needs:
 * WORDPRESS_VERSION - release version of Wordpress
 * WOOCOMMERCE_VERSION - ecommerce plugin version
 * WC_SEQR_PLUGIN_DIR - directory with seqr payment plugin
